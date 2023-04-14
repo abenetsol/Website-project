@@ -1,0 +1,16 @@
+.adv{
+    
+padding: 16px 0px;
+gap: 16px;
+
+position: absolute;
+width: 300px;
+right: 20px;
+
+/* Secondary color */
+
+background: rgba(120, 203, 249, 0.88);
+}
+img{
+    width: inherit;
+}

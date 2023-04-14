@@ -1,0 +1,43 @@
+.teamMembers{
+display: flex;
+height: fit-content;
+left: 16px;
+top: 196px;
+
+/* Black color 5% */
+
+background: rgba(38, 35, 31, 0.1);
+border-radius: 40px;
+margin-bottom: 30px;
+}
+.teamMembers p{
+font-family: 'Roboto Flex';
+font-style: normal;
+font-weight: 700;
+font-size: 19px;
+line-height: 30px;
+/* or 143% */
+
+text-align: start;
+}
+.teaminfo{
+    display: flex;
+    justify-content: baseline;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px;
+}
+
+.info1{
+    margin-top: -20px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 20px;
+}
+.teamMembers img{
+width: 136px;
+height: 136px;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+border-radius:50%;
+}

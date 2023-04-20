@@ -48,3 +48,8 @@
         font-size: 17px;
            
     }
+
+    .replay{
+        width: inherit;
+        flex-grow: true;
+    }

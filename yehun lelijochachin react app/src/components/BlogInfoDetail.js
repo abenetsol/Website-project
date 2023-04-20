@@ -1,5 +1,6 @@
 import Button from "./Button2"
 import "./blogInfo.css"
+import Reply from "./BlogReply"
 
 export default function BlogInfo(props){
 return(
@@ -57,7 +58,7 @@ the process rather than making it a boring class.
         </ul>
     </div>
     <div className="replay">
-            <p>blog</p>
+            <Reply/>
         </div>
     </div>
     );

@@ -4,19 +4,19 @@
 h3.contactUs{
     color: #ffffff;
     /* font: 2em; */
-    font-size: x-large;
+    font-size: xx-large;
     align-self: top;
     text-align: start;
 }
 p.contactUs{
     color: #ffffff;
     /* font: 3em;   */
-    font-size: large;
-    font-weight: 600;
+    font-size: x-large;
+    font-weight: bold;
     text-align: center;
-    margin-top: -5em;
+    margin-top: -3em;
 }
-input{
+input.info{
     float: left;
     width: 60%;
     background-color: #FAD7A9;
@@ -34,7 +34,7 @@ input.sendMessage{
     
     margin-top: -4em;
 }
-textarea{
+textarea.message{
     width: 100%;
     text-align: left;
     background-color: #FAD7A9;
@@ -65,5 +65,11 @@ span:after {
     right: 20px;
     top: 1px;
     pointer-events: none;
+}
+p.thanks{
+    color: #ffffff;
+    /* font: 3em;   */
+    font-size: x-large;
+    font-weight: bold; 
 }
 

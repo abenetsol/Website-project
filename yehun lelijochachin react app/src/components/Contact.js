@@ -18,12 +18,12 @@ export default function Contact(){
         </p>
         <div className="contactUsForm">
         <form>
-        <input type={Text} placeholder="Full Name"/>
-         <input type={"email"} placeholder="Your E-mail"/>
-         <input type={Number} placeholder="Phone Number"/>
-        <textarea id="message" placeholder="Your Message"/>
-        <div><Button/></div>
-        {/* <input className="sendMessage" type={"submit"} value="Send Message"/>       */}
+        <input className="info" type={Text} placeholder="Full Name"/>
+         <input className="info" type={"email"} placeholder="Your E-mail"/>
+         <input className="info" type={Number} placeholder="Phone Number"/>
+        <textarea className="message" placeholder="Your Message"/>
+        <Button className="sendMessage" link="#" buttonValue="Send Message"/>
+        <p className="thanks">Thank you for getting in touch with us.</p>
         </form>
         </div>          
         </div>

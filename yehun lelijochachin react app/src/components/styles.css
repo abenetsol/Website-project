@@ -20,13 +20,15 @@ padding-top: 20px;
 .nav.logo-list{
 padding-left: 10rem;
 }
+
+
 nav :first-child{
 color: black;
 font-family: 'Roboto Flex';
 font-style: normal;
 font-weight: 700;
-font-size: 42px;
-line-height: 50px;
+font-size: 35px;
+line-height: 30px;
 text-decoration: none;
     
 }
@@ -44,10 +46,11 @@ text-decoration: none;
 .nav li{
     background-color: #FFB554;
     border-radius: 24px;
-    margin: 5px;
+    margin: 8px;
     padding: 5px 15px;    
-    
     }
+
+
 .header-text{
     display: flex;
     justify-content: space-around;
@@ -130,14 +133,19 @@ font-size: 21px;
 line-height: 30px;
 }
 .contact{
-width: max-content;
-height: 66px;
+width: 210px;
+height: 56px;
 
 /* Tertiary color */
 
 background: #FFB554;
 border-radius: 24px;
 }
+
+.contact a{
+    font-size: 40px;
+}
+
 .goUp{
     background-color: #FFB554;
     display: flex;
@@ -147,7 +155,7 @@ border-radius: 24px;
     padding: 0px;
     gap: 24px;
     border-radius: 40px;
-    width: 144px;
+    width: 150px;
     height: 64px;
    
 }

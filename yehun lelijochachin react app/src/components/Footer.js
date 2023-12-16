@@ -12,7 +12,7 @@ function Footer(){
 <div className="goUp">
    
         <div>
-        <h3>Go <br/> Up</h3>
+        <h3>Go Up</h3>
         </div>
     <div>
     <a href="#"><img src={arrow}/></a>

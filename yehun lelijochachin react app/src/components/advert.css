@@ -11,6 +11,22 @@ right: 20px;
 
 background: rgba(120, 203, 249, 0.88);
 }
+@media only screen and (max-width: 600px){
+.adv{
+    
+padding: 16px 0px;
+gap: 16px;
+position: fixed;
+margin-top: -10rem;
+width: 300px;
+right: 20px;
+visibility: hidden;
+
+/* Secondary color */
+
+background: rgba(120, 203, 249, 0.88);
+}
+}
 img{
     width: inherit;
 }

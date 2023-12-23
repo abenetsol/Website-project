@@ -50,3 +50,38 @@
   .carousel-control:hover {
     background-color: rgba(255, 255, 255, 1);
   }
+
+
+@media (max-width: 600px) {
+  .carousel-container {
+    height: 300px;
+    /* Adjust height for smaller screens */
+  }
+
+  .carousel-images {
+    /* No specific changes needed here for mobile */
+  }
+
+  .carousel-image {
+    /* No specific changes needed here for mobile */
+  }
+
+  .carousel-image img {
+    /* Ensure images scale correctly on smaller screens */
+    object-fit: contain;
+  }
+
+  .carousel-controls {
+    /* Adjust control sizes and positions for better usability on mobile */
+    padding: 0 10px;
+  }
+
+  .carousel-control {
+    font-size: 20px;
+    /* Slightly reduce font size */
+    padding: 12px;
+    /* Adjust padding for smaller screens */
+  }
+
+  /* Add any additional mobile-specific styles below */
+}

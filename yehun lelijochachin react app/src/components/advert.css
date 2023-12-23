@@ -11,22 +11,29 @@ right: 20px;
 
 background: rgba(120, 203, 249, 0.88);
 }
-@media only screen and (max-width: 600px){
-.adv{
-    
-padding: 16px 0px;
-gap: 16px;
-position: fixed;
-margin-top: -10rem;
-width: 300px;
-right: 20px;
-visibility: hidden;
 
-/* Secondary color */
-
-background: rgba(120, 203, 249, 0.88);
-}
-}
 img{
     width: inherit;
+}
+
+@media (max-width: 600px) {
+    .adv {
+        position: static;
+        /* Change position to static for better mobile view */
+        margin-top: 0;
+        width: 100%;
+        /* Full width for mobile view */
+        right: 0;
+        padding: 8px 0;
+        /* Adjust padding for smaller screens */
+        gap: 8px;
+        background: rgba(120, 203, 249, 0.88);
+    }
+
+    img {
+        width: 100%;
+        /* Full width images on mobile */
+    }
+
+    /* Add any additional mobile-specific styles below */
 }

@@ -64,3 +64,60 @@ line-height: 10px;
     background: #F4A138;
     border-radius: 40px;
     }
+
+
+/* Media Query for Mobile Devices */
+@media (max-width: 600px) {
+    .fikerte {
+        width: auto;
+        /* Adjust width for mobile screens */
+        padding: 8px;
+        /* Adjust padding if necessary */
+        margin-left: 0;
+        /* Adjust left margin for mobile screens */
+    }
+
+    .box {
+        width: 100%;
+        /* Full width boxes on mobile */
+    }
+
+    div .info {
+        flex-direction: column;
+        /* Stack info content vertically */
+        align-items: flex-start;
+        /* Align items to the start */
+    }
+
+    .info img {
+        width: 100%;
+        /* Full width images on mobile */
+        height: auto;
+        /* Maintain aspect ratio */
+    }
+
+    .infoInner {
+        font-size: 17px;
+        /* Adjust font size for mobile */
+        padding-left: 10px;
+        /* Adjust padding */
+        line-height: normal;
+        /* Adjust line height */
+    }
+
+    .box p {
+        font-size: 15px;
+        /* Adjust paragraph font size */
+    }
+
+    .replay {
+        width: auto;
+        /* Full width for replay section on mobile */
+        margin-right: 0;
+        /* Adjust right margin */
+        gap: 40px;
+        /* Reduce gap for a tighter layout */
+    }
+
+    /* Add any additional mobile-specific styles below */
+}

@@ -15,7 +15,44 @@
     border-radius: 40px;
 }
 
-@media only screen and (max-width: 600px){
+/* Media Query for Mobile Devices */
+@media (max-width: 600px) {
+    .socialMedia {
+        position: fixed;
+        /* Keep it fixed, but adjust the location for mobile */
+        bottom: 10px;
+        /* Position it at the bottom of the screen */
+        left: 2%;
+        /* Center it horizontally */
+
+        /* transform: translateX(-80%); */
+        /* Adjust for center alignment */
+        
+        width: auto;
+        /* Auto width to accommodate the contents */
+        height: 45px;
+        /* Set a fixed height */
+        margin-bottom: 22em;
+        /* Reset margin-top */
+
+        padding: 17em 1em;
+        /* Reduce padding */
+
+        flex-direction: column;
+        /* Change direction to row for horizontal layout */
+        gap: 25px;
+        /* Reduce gap between icons */
+        border-radius: 25px;
+        /* Adjust border-radius for a rounded look */
+        background: rgba(38, 35, 31, 0.2);
+        /* Slightly darker background for visibility */
+    }
+
+    /* Additional styles for child elements (like icons) can be added here if necessary */
+}
+
+
+/* @media only screen and (max-width: 600px){
     .socialMedia {
             position: fixed;
             display: flex;
@@ -27,9 +64,8 @@
             width: 30px;
             height: fit-content;
             margin-top: -140px;
-            /* Black color 5% */
     
             background: rgba(38, 35, 31, 0.1);
             border-radius: 40px;
         }
-}
+} */

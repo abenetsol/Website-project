@@ -73,3 +73,60 @@ p.thanks{
     font-weight: bold; 
 }
 
+/* Media Query for Mobile Devices */
+@media (max-width: 600px) {
+    .contactUs {
+        margin-top: 0;
+        /* Adjust margin for mobile view */
+    }
+
+    h3.contactUs,
+    p.contactUs,
+    p.thanks {
+        font-size: large;
+        /* Adjust font size for mobile */
+        text-align: center;
+        /* Center align for better mobile readability */
+    }
+
+    p.contactUs {
+        margin-top: 0;
+        /* Adjust top margin */
+    }
+
+    input.info,
+    textarea.message {
+        float: none;
+        /* Disable floating for a better layout */
+        width: 90%;
+        /* Adjust width for mobile devices */
+        margin: 0.5em auto;
+        /* Center align and adjust margin */
+        font-size: medium;
+        /* Adjust font size for mobile */
+    }
+
+    input.sendMessage {
+        width: 90%;
+        /* Full width for send message button */
+        margin: 0.5em auto;
+        /* Adjust margin */
+    }
+
+    .contactUsForm {
+        margin-top: 0;
+        /* Adjust top margin for the form */
+    }
+
+    span:after {
+        right: 5px;
+        /* Adjust position for mobile */
+    }
+
+    input[type="submit"] {
+        padding: 10px 20px;
+        /* Adjust padding for mobile */
+    }
+
+    /* Add any additional mobile-specific styles below */
+}

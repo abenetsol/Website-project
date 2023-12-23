@@ -53,3 +53,59 @@
         width: inherit;
         flex-grow: true;
     }
+
+/* Media Query for Mobile Devices */
+@media (max-width: 600px) {
+    .fikerteb {
+        margin-right: 0;
+        width: auto;
+        /* Adjust width for mobile screens */
+        padding: 8px;
+        /* Adjust padding if needed */
+        gap: 15px;
+        /* Reduce gap for a tighter layout */
+    }
+
+    .box {
+        width: 100%;
+        /* Full width boxes on mobile */
+        padding: 8px;
+        /* Adjust padding for mobile */
+    }
+
+    .info {
+        flex-direction: column;
+        /* Stack info content vertically */
+        align-items: center;
+        /* Center align items for a better mobile layout */
+        margin-left: 0;
+    }
+
+    .info img {
+        width: 100%;
+        /* Adjust image width to fit mobile screens */
+        height: auto;
+        /* Maintain aspect ratio */
+    }
+
+    .infoInner {
+        font-size: 16px;
+        /* Adjust font size for mobile */
+        line-height: normal;
+        /* Adjust line height */
+        padding-left: 10px;
+        /* Adjust padding */
+    }
+
+    .box p {
+        font-size: 15px;
+        /* Adjust paragraph font size */
+    }
+
+    .replay {
+        width: 100%;
+        /* Full width for replay section */
+    }
+
+    /* Add any additional mobile-specific styles below */
+}

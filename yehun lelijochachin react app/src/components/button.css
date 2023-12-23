@@ -94,3 +94,51 @@ height: 40px;
     font-size: larger;
     font-weight: bolder;
 }
+
+/* Media Query for Mobile Devices */
+@media (max-width: 600px) {
+
+    .more,
+    .readme,
+    .readme1 {
+        width: auto;
+        /* Full width on mobile */
+        padding: 16px;
+        /* Adjust padding for smaller screens */
+        gap: 8px;
+        /* Reduce gap for a compact layout */
+        margin: 10px 0;
+        /* Adjust margin for mobile layout */
+    }
+
+    .more img,
+    .readme img {
+        width: fit-content;
+        /* Full width images on mobile */
+    }
+    
+
+    .more a,
+    .readme a,
+    .readme1 a {
+        width: 100%;
+        /* Full width for links */
+        gap: 16px;
+        /* Adjust gap for mobile */
+        padding: 8px;
+        /* Adjust padding for mobile */
+    }
+
+    .readme img {
+        width: fit-content;
+        transform: rotate(0deg);
+        /* Adjust image rotation for mobile */
+    }
+
+    .readme1 h3 {
+        font-size: medium;
+        /* Adjust font size for mobile */
+    }
+
+    /* Add any additional mobile-specific styles below */
+}

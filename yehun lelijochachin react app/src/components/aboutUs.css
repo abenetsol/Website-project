@@ -98,3 +98,60 @@ line-height: 30px;
     margin-bottom: 40px;
 }
 
+/* Media Query for Mobile Devices */
+@media (max-width: 600px) {
+    .aboutUs {
+        width: 100%;
+        margin-right: 0;
+        gap: 40px;
+        padding: 24px;
+    }
+
+    .contant {
+        padding: 10px;
+        border-radius: 20px;
+    }
+
+    .contant h1 {
+        font-size: 30px;
+        line-height: 40px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        padding: 10px;
+        border-radius: 20px;
+    }
+
+    .contant p {
+        font-size: 16px;
+        line-height: 25px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .contant h3 {
+        font-size: 18px;
+        padding-left: 10px;
+    }
+
+    .slider {
+        height: auto;
+        padding: 8px;
+        gap: 4px;
+        border-radius: 20px;
+    }
+
+    .products p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .products h3 {
+        margin-top: 20px;
+    }
+
+    .facebook {
+        margin-bottom: 20px;
+    }
+
+    /* Add any additional mobile-specific styles below */
+}

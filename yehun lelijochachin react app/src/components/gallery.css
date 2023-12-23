@@ -23,3 +23,30 @@
     cursor: pointer;
     justify-content: start;
   }
+
+/* Media Query for Mobile Devices */
+@media (max-width: 600px) {
+  .gallery {
+    /* The gallery is already responsive, but you can add mobile-specific styles here if needed */
+  }
+
+  img {
+    /* Images are already set to scale appropriately */
+  }
+
+  .gallary {
+    flex-direction: column;
+    /* Stack gallery items vertically on smaller screens */
+  }
+
+  .gallary button {
+    font-size: 14px;
+    /* Slightly reduce font size for mobile */
+    padding: 6px 10px;
+    /* Adjust padding for smaller screens */
+    margin: 5px 0;
+    /* Add margin for spacing between buttons in vertical layout */
+  }
+
+  /* Add any additional mobile-specific styles below */
+}

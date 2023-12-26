@@ -111,14 +111,28 @@ height: 40px;
         /* Adjust margin for mobile layout */
     }
 
-    .more img,
+    a > .readmoreimg > img {
+        width: 40px;
+        aspect-ratio: 1;
+    }
+
     .readme img {
         width: fit-content;
         /* Full width images on mobile */
     }
+
+    .more  {
+        display: flex;
+        align-items: center;
+        margin-left: 3.5em;
+    }
+
+    .more > a img {
+        width: 40px;
+        aspect-ratio: 1;
+    }
     
 
-    .more a,
     .readme a,
     .readme1 a {
         width: 100%;

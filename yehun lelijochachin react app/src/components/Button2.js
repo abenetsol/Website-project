@@ -6,7 +6,7 @@ return(
             <div className="inner">
             <a href={props.link} >
             <h3>{props.buttonValue}</h3> 
-            <div><img src = {arrow} alt = "arrow"/></div>
+            <div className='readmoreimg'><img src = {arrow} alt = "arrow"/></div>
             </a> 
                 </div>
     </div> 

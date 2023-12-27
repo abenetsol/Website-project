@@ -21,6 +21,7 @@ img{
         position: static;
         /* Change position to static for better mobile view */
         margin-top: 0;
+        margin-bottom: 60px;
         width: 100%;
         /* Full width for mobile view */
         right: 0;

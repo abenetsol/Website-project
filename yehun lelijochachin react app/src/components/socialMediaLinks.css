@@ -18,9 +18,10 @@
 /* Media Query for Mobile Devices */
 @media (max-width: 600px) {
     .socialMedia {
+        z-index: 99;
         position: fixed;
         /* Keep it fixed, but adjust the location for mobile */
-        bottom: 10px;
+        top: 50%;
         /* Position it at the bottom of the screen */
         left: 2%;
         /* Center it horizontally */
@@ -32,10 +33,10 @@
         /* Auto width to accommodate the contents */
         height: 45px;
         /* Set a fixed height */
-        margin-bottom: 22em;
+        /* margin-bottom: 22em; */
         /* Reset margin-top */
 
-        padding: 17em 1em;
+        padding: 17em 0.3em;
         /* Reduce padding */
 
         flex-direction: column;
@@ -46,6 +47,10 @@
         /* Adjust border-radius for a rounded look */
         background: rgba(38, 35, 31, 0.2);
         /* Slightly darker background for visibility */
+    }
+
+    .socialMedia > img {
+        width: 50px;
     }
 
     /* Additional styles for child elements (like icons) can be added here if necessary */

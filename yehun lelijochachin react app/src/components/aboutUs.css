@@ -66,7 +66,7 @@ margin-top: -10px;
     padding-left: 20px;
 }
 .slider{
-    display: block;
+    display: flex;
 flex-direction: row;
 justify-content: center;
 align-items: center;
@@ -133,6 +133,7 @@ line-height: 30px;
     }
 
     .slider {
+        display: block;
         height: auto;
         padding: 8px;
         gap: 4px;

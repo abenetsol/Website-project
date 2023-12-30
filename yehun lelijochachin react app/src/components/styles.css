@@ -195,10 +195,18 @@ height: fit-content;
     width: 200px;
 }
 
+/* .menuIcons {
+    z-index: 900;
+    position: relative;
+    display: none;
+} */
+
 
 
 @media (max-width: 600px) {
-    .nav {
+    
+    
+    /* .nav {
         flex-direction: column;
         align-items: center;
     }
@@ -210,7 +218,7 @@ height: fit-content;
     .nav ul {
         flex-direction: column;
         align-items: center;
-    }
+    } */
 
     .video,
     .foot {
@@ -291,5 +299,128 @@ height: fit-content;
     .gallaryContainer {
         margin-left: 0;
     }
+
+    /* responsive mobile navbar */
+    .nav {
+		display: none;
+	}
+
+	.navbarItems {
+		display: none;
+	}
+
+	/* adjusted margin */
+	.menuIcons{
+	z-index: 908;
+    top: -13em;
+	margin-left: 25em;
+	position: relative;
+	display: block;
+}
+
+	.fa-bars, 
+	.fa-times{
+		color: white;
+	}
+
+
+    .nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+	.navbarCollapsed{
+		display: block;
+		width: 100%;
+		margin-top: 0%;
+		margin-bottom: -130px;
+		z-index: 907;
+	}
+
+nav :first-child{
+color: black;
+font-family: 'Roboto Flex';
+font-style: normal;
+font-weight: 700;
+font-size: 35px;
+line-height: 30px;
+text-decoration: none;
+    
+}
+.navbarCollapsed ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: block;
+    /* flex: 0.8; */
+    justify-content: center;
+    background: rgba(38, 35, 31, 0.1);
+    border-radius: 40px;
+
+}
+.navbarCollapsed li{
+    background-color: #FFB554;
+    border-radius: 24px;
+    
+    margin: 25px 8px;
+    padding: 8px 35px;    
+    }
+
+.nav-links{
+	font-family: DM Sans;
+	width: 50%;
+	padding: 40px 0;
+	display: flex;
+    flex-direction: column;
+	margin-inline-start: 0px;
+	padding: 12px 75px;
+	justify-content: center;
+	align-items: center;
+	list-style: none;
+	gap: 90px;
+	text-decoration: none;
+}
+
+.navMenu {
+    font-family: DM Sans;
+    display: flex;
+    flex-direction: column;
+    padding: 12px 75px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(59, 59, 59, 0.7);
+    box-shadow: 0 8px 32px rgba(31, 38, 135, .35);
+    backdrop-filter: blur(4px);
+    border-radius: 13px;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: -110%;
+    left: 0%;
+    transition: all 0.3s ease-in;
+    /* align-items: stretch; */
+    padding: 100px 0 30px 0;
+    margin: 0;
+    /* align-items: center; */
+    list-style: none;
+    gap: 40px;
+    text-decoration: none;
+    z-index: 907;
+}
+
+
+.navMenu.active {
+    top: 0%;
+    transition: all 0.3s ease-out;
+}
+
+.text_head {
+    margin-bottom: 100px;
+}
 
 }

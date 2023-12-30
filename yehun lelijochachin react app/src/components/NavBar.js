@@ -21,6 +21,10 @@ function NavBar(){
         <div><h2 className = "text_head">Let it be for our children</h2></div>
         <div className="navbarItems">
             <nav className="nav-links">
+            <div className="menuIcons" onClick={handleClick}>
+            <i className={clicked ? "fas fa-times" : 'fas fa-bars'}></i>
+            </div>
+            <div className={clicked ? "navMenu active" : "navMenu"}>
             <ul>
                 <li><Link to='/'>Home</Link></li>
                 <li><Link to='/about_us'>About Us</Link></li>
@@ -29,6 +33,7 @@ function NavBar(){
                 <li><Link to='/blogs'>Blog</Link></li>
                 <li><Link to='/contact'>Contact</Link></li>
             </ul>
+            </div>
             </nav>
         </div>
         <div className="navbarCollapsed">

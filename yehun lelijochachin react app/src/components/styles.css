@@ -33,7 +33,7 @@ line-height: 30px;
 text-decoration: none;
     
 }
-.nav ul{
+.nav-links ul{
     padding: 0;
     margin: 0;
     list-style: none;
@@ -44,7 +44,7 @@ text-decoration: none;
     border-radius: 40px;
 
 }
-.nav li{
+.nav-links li{
     background-color: #FFB554;
     border-radius: 24px;
     margin: 8px;
@@ -195,11 +195,16 @@ height: fit-content;
     width: 200px;
 }
 
-/* .menuIcons {
+
+.navbarCollapsed {
+    display: none;
+}
+
+.menuIcons {
     z-index: 900;
     position: relative;
     display: none;
-} */
+}
 
 
 
@@ -413,10 +418,17 @@ text-decoration: none;
     z-index: 907;
 }
 
+.menuIcons {
+    margin-right: 320px;
+}
 
 .navMenu.active {
     top: 0%;
     transition: all 0.3s ease-out;
+}
+
+.navAndText {
+    width: 400px;
 }
 
 .text_head {

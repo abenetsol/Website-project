@@ -225,8 +225,8 @@ height: fit-content;
         align-items: center;
     } */
 
-    .video,
-    .foot {
+    .video
+     {
         flex-direction: column;
         align-items: center;
         margin-left: 0;
@@ -434,5 +434,14 @@ text-decoration: none;
 .text_head {
     margin-bottom: 100px;
 }
-
+.foot{
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(120, 203, 249, 0.88);
+    border: 1px solid #000000;
+    gap: 10px;
+    border-radius: 40px;
+    height: fit-content; 
+}
 }

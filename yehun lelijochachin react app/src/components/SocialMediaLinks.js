@@ -6,6 +6,7 @@ import vector3 from "../assets/images/vector3.png"
 import vector4 from "../assets/images/vector4.png"
 import vector5 from "../assets/images/vector5.png"
 import vector6 from "../assets/images/vector6.png"
+
 function SocialMediaLinks(){
     return(
         <div className="socialMedia">

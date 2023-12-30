@@ -51,7 +51,9 @@
 
     .replay{
         width: inherit;
-        flex-grow: true;
+        align-items: center;
+        margin: auto;
+        
     }
 
 /* Media Query for Mobile Devices */

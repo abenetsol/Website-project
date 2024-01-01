@@ -1,0 +1,18 @@
+.blogReply{
+    width: fit-content;
+}
+.blogReply textarea,
+input{
+background-color: #FAD7A9;
+font-size: medium;
+/* padding-left: 1em; */
+    border-color: inherit;
+    border-radius: 2em;
+    height: 2.5em;
+    
+}
+.blogReply #message1{
+  height: max-content;
+  position: relative;
+    
+}
